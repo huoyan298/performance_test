@@ -1,0 +1,540 @@
+2022-01-03 08:43:28,565 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2022-01-03 08:43:28,836 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2022-01-03 08:43:28,869 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2022-01-03 08:43:28,876 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2022-01-03 08:43:28,877 INFO o.a.j.JMeter: Version 5.2.1
+2022-01-03 08:43:28,878 INFO o.a.j.JMeter: java.version=11.0.9
+2022-01-03 08:43:28,878 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-01-03 08:43:28,879 INFO o.a.j.JMeter: os.name=Windows 7
+2022-01-03 08:43:28,880 INFO o.a.j.JMeter: os.arch=amd64
+2022-01-03 08:43:28,880 INFO o.a.j.JMeter: os.version=6.1
+2022-01-03 08:43:28,881 INFO o.a.j.JMeter: file.encoding=GBK
+2022-01-03 08:43:28,881 INFO o.a.j.JMeter: java.awt.headless=null
+2022-01-03 08:43:28,882 INFO o.a.j.JMeter: Max memory     =2088763392
+2022-01-03 08:43:28,883 INFO o.a.j.JMeter: Available Processors =4
+2022-01-03 08:43:28,928 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2022-01-03 08:43:28,930 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2022-01-03 08:43:28,930 INFO o.a.j.JMeter: JMeterHome=D:\jmeter-5.2.1
+2022-01-03 08:43:28,931 INFO o.a.j.JMeter: user.dir  =D:\jmeter-5.2.1\bin
+2022-01-03 08:43:28,932 INFO o.a.j.JMeter: PWD       =D:\jmeter-5.2.1\bin
+2022-01-03 08:43:28,938 INFO o.a.j.JMeter: IP: 192.168.43.237 Name: Lenovo-PC FullName: Lenovo-PC
+2022-01-03 08:43:30,557 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2022-01-03 08:43:30,590 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2022-01-03 08:43:30,592 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2022-01-03 08:43:30,979 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-01-03 08:43:53,982 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=jenkins-b7571381acd808e4e9185a43fb07b0d9-gui
+2022-01-03 08:43:58,673 WARN o.a.j.g.ObjectTableModel: Header count=13 but classes count=11
+2022-01-03 08:43:58,677 WARN o.a.j.g.ObjectTableModel: Header count=13 but writeFunctor count=11
+2022-01-03 08:44:02,910 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-03 08:44:02,911 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-03 08:44:02,912 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-03 08:44:02,912 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-03 08:44:02,914 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-01-03 08:44:02,915 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-01-03 08:44:06,432 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2022-01-03 08:44:06,435 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\jmeter-5.2.1\bin\proxyserver.jks
+2022-01-03 08:44:08,599 INFO o.a.j.s.FileServer: Default base='D:\jmeter-5.2.1\bin'
+2022-01-03 08:44:10,538 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-cmd=2.2, jpgc-graphs-composite=2.0, jpgc-csl=0.1, jpgc-functions=2.1, jpgc-casutg=2.9, jpgc-dummy=0.4, jpgc-filterresults=2.2, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-perfmon=2.1, jpgc-plugins-manager=plugins-manager, jpgc-redis=0.3, jpgc-webdriver=3.3, jpgc-synthesis=2.2, jpgc-tst=2.5, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1, jpgc-standard=2.0]
+2022-01-03 08:44:10,567 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-casutg, jpgc-redis]
+2022-01-03 08:44:13,958 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-01-03 08:44:13,959 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-01-03 08:44:13,959 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-01-03 08:44:13,961 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-01-03 08:44:14,344 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-01-03 08:45:15,200 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-01-03 08:45:33,094 INFO o.a.j.s.FileServer: Set new base='D:\jmeter-5.2.1\bin'
+2022-01-03 08:45:34,244 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-01-03 08:45:34,305 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-01-03 08:45:34,315 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-01-03 08:45:34,461 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:45:34,492 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:45:34,493 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:45:34,507 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-01-03 08:45:34,508 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-01-03 08:45:35,922 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:45:36,293 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:45:36,294 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:45:36,294 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:45:36,295 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:45:36,309 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:45:36,310 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:45:36,365 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:45:36,380 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:45:36,380 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:45:36,382 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:45:36,383 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:45:39,627 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:45:39,629 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:45:39,645 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:45:39,953 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:45:39,954 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:45:39,960 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:45:39,961 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:45:39,964 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:45:39,964 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:45:39,971 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:45:39,976 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:45:39,977 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:45:39,978 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:45:39,979 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:46:06,267 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:46:06,269 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:46:06,274 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:46:06,559 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:46:06,560 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:46:06,560 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:46:06,561 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:46:06,564 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:46:06,564 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:46:06,567 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:46:06,601 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Lenovo-PC
+2022-01-03 08:46:06,627 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-01-03 08:46:06,900 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-01-03 08:46:06,909 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-01-03 08:46:06,910 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-01-03 08:46:06,955 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-01-03 08:46:06,958 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-01-03 08:46:06,959 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-01-03 08:46:07,185 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:46:07,186 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:46:07,191 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:46:07,192 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:49:35,116 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:49:35,118 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:49:35,124 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:49:35,139 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:49:35,140 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:49:35,140 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:49:35,141 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:49:35,144 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:49:35,145 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:49:35,149 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:49:35,566 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:49:35,566 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:49:35,570 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:49:35,571 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:50:04,943 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:50:04,946 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:50:04,964 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:50:05,260 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:50:05,261 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:50:05,261 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:50:05,262 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:50:05,264 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:50:05,265 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:50:05,268 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:50:05,536 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:50:05,537 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:50:05,540 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:50:05,541 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:50:33,444 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:50:33,446 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:50:33,455 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:50:33,779 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:50:33,779 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:50:33,780 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:50:33,780 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:50:33,782 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:50:33,783 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:50:33,787 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:50:34,076 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:50:34,076 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:50:34,080 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:50:34,081 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:52:38,755 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:52:38,757 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:52:38,762 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:52:39,105 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:52:39,105 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:52:39,105 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:52:39,106 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:52:39,108 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:52:39,108 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:52:39,111 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:52:39,446 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:52:39,447 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:52:39,449 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:52:39,450 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:53:22,920 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:53:22,922 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:53:22,926 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:53:23,257 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:53:23,257 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:53:23,258 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:53:23,258 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:53:23,260 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:53:23,261 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:53:23,263 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:53:23,520 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:53:23,521 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:53:23,523 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:53:23,524 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:53:53,281 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:53:53,282 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:53:53,286 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:53:53,620 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:53:53,621 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:53:53,621 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:53:53,622 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:53:53,625 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:53:53,625 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:53:53,628 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:53:53,870 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:53:53,870 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:53:53,873 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:53:53,874 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:54:26,900 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:54:26,901 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:54:26,909 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:54:27,287 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:54:27,288 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:54:27,288 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:54:27,292 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:54:27,295 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:54:27,296 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:54:27,309 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:54:27,550 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:54:27,551 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:54:27,552 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:54:27,553 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:56:00,348 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:56:00,350 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:56:00,361 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:56:00,729 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:56:00,729 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:56:00,730 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:56:00,730 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:56:00,731 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:56:00,732 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:56:00,734 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:56:01,032 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:56:01,032 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:56:01,036 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:56:01,037 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:56:39,856 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:56:39,857 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:56:39,864 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:56:40,207 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:56:40,208 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:56:40,208 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:56:40,208 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:56:40,210 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:56:40,210 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:56:40,213 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:56:40,475 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:56:40,475 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:56:40,478 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:56:40,479 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:57:12,033 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:57:12,034 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:57:12,038 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:57:12,050 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:57:12,051 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:57:12,051 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:57:12,051 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:57:12,053 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:57:12,055 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:57:12,056 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:57:12,383 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:57:12,383 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:57:12,385 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:57:12,386 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:58:05,856 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:58:05,857 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:58:05,870 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:58:06,216 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:58:06,216 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:58:06,216 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:58:06,217 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:58:06,218 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:58:06,218 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:58:06,221 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:58:06,536 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:58:06,536 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:58:06,540 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:58:06,540 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:58:14,753 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:58:14,755 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:58:14,764 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:58:15,095 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:58:15,095 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:58:15,095 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:58:15,096 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:58:15,098 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:58:15,098 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:58:15,101 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:58:15,347 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:58:15,348 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:58:15,352 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:58:15,353 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:58:30,940 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:58:30,941 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:58:30,946 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:58:31,288 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:58:31,289 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:58:31,289 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:58:31,289 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:58:31,291 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:58:31,292 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:58:31,295 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:58:31,498 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:58:31,498 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:58:31,503 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:58:31,504 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 08:59:54,014 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 08:59:54,022 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 08:59:54,027 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 08:59:54,367 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 08:59:54,368 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 08:59:54,368 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 08:59:54,368 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 08:59:54,369 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 08:59:54,370 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 08:59:54,372 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 08:59:54,789 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 08:59:54,790 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 08:59:54,794 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 08:59:54,795 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:00:19,894 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:00:19,895 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:00:19,904 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:00:20,258 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:00:20,258 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:00:20,259 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:00:20,259 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:00:20,261 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:00:20,261 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:00:20,265 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:00:20,554 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:00:20,555 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:00:20,557 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:00:20,557 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:00:43,738 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:00:43,739 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:00:43,743 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:00:44,096 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:00:44,097 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:00:44,097 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:00:44,097 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:00:44,099 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:00:44,099 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:00:44,102 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:00:44,344 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:00:44,345 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:00:44,347 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:00:44,347 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:02:37,490 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:02:37,491 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:02:37,496 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:02:37,865 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:02:37,865 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:02:37,865 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:02:37,866 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:02:37,867 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:02:37,868 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:02:37,870 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:02:38,248 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:02:38,248 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:02:38,251 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:02:38,251 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:03:02,565 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:03:02,576 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:03:02,592 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:03:02,949 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:03:02,950 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:03:02,950 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:03:02,950 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:03:02,952 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:03:02,952 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:03:02,956 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:03:03,208 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:03:03,208 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:03:03,210 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:03:03,210 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:03:08,282 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:03:08,283 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:03:08,290 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:03:08,620 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:03:08,621 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:03:08,621 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:03:08,621 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:03:08,623 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:03:08,623 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:03:08,625 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:03:08,841 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:03:08,841 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:03:08,846 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:03:08,847 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:04:28,583 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:04:28,584 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:04:28,587 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:04:28,927 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:04:28,928 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:04:28,928 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:04:28,929 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:04:28,930 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:04:28,931 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:04:28,933 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:04:29,235 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:04:29,235 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:04:29,237 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:04:29,237 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:05:23,678 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:05:23,682 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:05:23,686 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:05:24,034 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:05:24,034 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:05:24,034 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:05:24,035 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:05:24,036 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:05:24,037 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:05:24,039 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:05:24,349 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:05:24,349 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:05:24,351 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:05:24,352 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:05:41,018 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:05:41,019 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:05:41,026 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:05:41,361 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:05:41,362 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:05:41,362 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:05:41,362 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:05:41,364 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:05:41,364 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:05:41,367 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:05:41,761 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:05:41,761 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:05:41,763 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:05:41,764 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:06:12,097 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:06:12,098 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:06:12,102 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:06:12,437 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:06:12,437 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:06:12,437 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:06:12,438 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:06:12,439 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:06:12,439 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:06:12,443 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:06:12,655 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:06:12,656 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:06:12,658 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:06:12,658 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:07:43,821 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:07:43,823 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:07:43,827 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:07:44,168 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:07:44,168 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:07:44,168 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:07:44,168 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:07:44,170 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:07:44,170 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:07:44,173 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:07:44,492 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:07:44,492 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:07:44,495 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:07:44,497 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:08:00,669 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:08:00,670 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:08:00,675 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:08:01,017 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:08:01,017 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:08:01,017 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:08:01,018 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:08:01,019 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:08:01,020 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:08:01,023 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:08:01,277 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:08:01,278 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:08:01,281 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:08:01,282 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:09:05,203 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-01-03 09:12:40,231 INFO o.a.j.s.FileServer: Set new base='D:\jmeter-5.2.1\bin'
+2022-01-03 09:12:40,242 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:12:40,243 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:12:40,244 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:12:40,628 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:12:40,629 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:12:40,629 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:12:40,630 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:12:40,634 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:12:40,635 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:12:40,637 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:12:40,807 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:12:40,807 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:12:40,808 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:12:40,809 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:12:43,720 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:12:43,721 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:12:43,722 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:12:44,071 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:12:44,071 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:12:44,072 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:12:44,072 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:12:44,074 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:12:44,074 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:12:44,075 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:12:44,184 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:12:44,185 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:12:44,186 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:12:44,186 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:13:04,111 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-01-03 09:13:09,024 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:13:09,032 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:13:09,034 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:13:09,061 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:13:09,061 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:13:09,062 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:13:09,062 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:13:09,064 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:13:09,064 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:13:09,065 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:13:09,283 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:13:09,284 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:13:09,286 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:13:09,287 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:14:10,257 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:14:10,258 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:14:10,259 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:14:10,606 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:14:10,606 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:14:10,607 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:14:10,607 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:14:10,609 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:14:10,609 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:14:10,610 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:14:10,927 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:14:10,927 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:14:10,930 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:14:10,931 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:25:05,895 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:25:05,896 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:25:05,904 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:25:06,255 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:25:06,256 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:25:06,256 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:25:06,257 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:25:06,286 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:25:06,287 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:25:06,287 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:25:06,506 INFO o.a.j.u.BeanShellTestElement: hello world
+2022-01-03 09:25:06,508 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:25:06,508 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:25:06,510 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:25:06,510 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-01-03 09:30:55,715 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-03 09:30:55,719 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-03 09:30:55,721 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-03 09:30:56,116 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-01-03 09:30:56,117 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-01-03 09:30:56,117 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-03 09:30:56,117 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-01-03 09:30:56,140 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-03 09:30:56,140 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-03 09:30:56,141 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-01-03 09:30:57,378 INFO o.a.j.u.BeanShellTestElement: hello world
+2022-01-03 09:30:57,378 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-01-03 09:30:57,379 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-01-03 09:30:57,382 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-03 09:30:57,383 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
